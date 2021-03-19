@@ -1,0 +1,26 @@
+↑convertigo: 7.9.0.m006
+↓lib_GoogleSheet_ui [core.Project]: 
+  comment: The Google Sheet Connector for Convertigo
+  version: 1.1
+  ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
+  ↓lib_OAuth_reference [references.ProjectSchemaReference]: 
+    comment: Used to get the Google OAuth token
+    projectName: lib_OAuth=https://github.com/convertigo/c8oprj-lib-oauth.git:branch=7.9.0:autoPull=true
+  ↓lib_UserManager_reference [references.ProjectSchemaReference]: 
+    projectName: lib_UserManager=https://github.com/convertigo/c8oprj-lib-user-manager.git:branch=7.9.0:autoPull=true
+  ↓MobileBuilderTemplate [references.ProjectSchemaReference]: 
+    comment: mobile builder template
+    projectName: mobilebuilder_tpl_7_9_0=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_7_9_0.zip
+  ↓Project_reference [references.ProjectSchemaReference]: 
+    comment: Used for the Demo App only
+    projectName: lib_ExtendedComponents=https://github.com/convertigo/c8oprj-lib-extended-components.git:branch=7.9.0:autoPull=true
+  ↓Project_reference1 [references.ProjectSchemaReference]: 
+    projectName: lib_GoogleSheet=https://github.com/convertigo/c8oprj-lib-googlesheets.git:branch=7.9.0:autoPull=true
+  ↓MobileApplication [core.MobileApplication]: 
+    comment: Test and demo app to show Google Sheet capacities
+    splashRemoveMode: beforeUpdate
+    ↓Android [mobileplatforms.Android]: 
+      comment: Android platform
+    ↓iOS [mobileplatforms.IOs]: 
+      comment: iOS platform
+    ↓Application [mobile.components.ApplicationComponent]: 🗏 mobileApplication.yaml
