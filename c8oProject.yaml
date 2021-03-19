@@ -13,7 +13,7 @@
     projectName: mobilebuilder_tpl_7_9_0=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_7_9_0.zip
   ↓Project_reference [references.ProjectSchemaReference]: 
     comment: Used for the Demo App only
-    projectName: lib_ExtendedComponents=https://github.com/convertigo/c8oprj-lib-extended-components.git:branch=7.9.0:autoPull=true
+    projectName: lib_ExtendedComponents_ui=https://github.com/convertigo/c8oprj-lib-extended-components-ui.git:branch=7.9.0:autoPull=true
   ↓Project_reference1 [references.ProjectSchemaReference]: 
     projectName: lib_GoogleSheet=https://github.com/convertigo/c8oprj-lib-googlesheets.git:branch=7.9.0:autoPull=true
   ↓MobileApplication [core.MobileApplication]: 
