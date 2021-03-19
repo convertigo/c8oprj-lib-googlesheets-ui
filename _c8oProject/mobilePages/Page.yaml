@@ -134,7 +134,7 @@ title: Title for Page
         - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
         - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_GoogleSheet_ui","input":"","model":{"data":[{"sequence":"lib_GoogleSheet.SheetGetRange","marker":""}],"path":"?.sheet","prefix":"","suffix":"","custom":"","useCustom":false}}
     ↓UseSharedComponent [mobile.components.UIUseShared-1607796970843]: 
-      sharedcomponent: lib_ExtendedComponents.MobileApplication.Application.agGrid
+      sharedcomponent: lib_ExtendedComponents_ui.MobileApplication.Application.agGrid
       ↓pagination [mobile.components.UIControlVariable-1607797553164]: 
         comment: 'boolean: true (default) or false'
         varValue: 
